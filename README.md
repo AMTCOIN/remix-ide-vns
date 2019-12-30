@@ -28,7 +28,8 @@ npm start
 
 ## DEVELOPING:
 
-Run `npm start` and open `http://127.0.0.1:8080` in your browser.
+MacOS  : Run `npm start` and open `http://127.0.0.1:8080` in your browser.
+Windows: Run `npm start` and open `http://127.0.0.1:8080/index` in your browser.
 
 Then open your `text editor` and start developing.
 The browser will automatically refresh when files are saved.
