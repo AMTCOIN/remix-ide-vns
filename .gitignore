@@ -3,6 +3,7 @@
 build
 node_modules
 docs/_build
+docs
 reports
 soljson.js
 soljson.js.*
@@ -10,6 +11,5 @@ npm-debug.log*
 package-lock.json
 remix
 .DS_Store
-contracts
 TODO
 .tern-port
