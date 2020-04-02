@@ -51,13 +51,13 @@
 						if (keyValue[0] !== '') {
 							params[keyValue[0]] = keyValue[1]
 						}
-					}	
+					}
 					return params
 				}
         //const defaultVersion = '0.8.0';
-		const defaultVersion = '0.7.7'
+		const defaultVersion = '0.7.7';
         let versionToLoad = urlParams().appVersion ? urlParams().appVersion : defaultVersion
-                
+
 				let assets = {
 						'0.8.0': ['https://use.fontawesome.com/releases/v5.8.1/css/all.css', 'assets/css/pygment_trac.css'],
 						'0.7.7': ['assets/css/font-awesome.min.css', 'assets/css/pygment_trac.css']
@@ -80,7 +80,7 @@
 					let app = document.createElement('script')
 					app.setAttribute('src', versions[versionToLoad])
 					document.body.appendChild(app)
-				}				
+				}
 		</script>
 	</body>
 </html>

@@ -90,3 +90,8 @@ To run the Selenium tests via Nightwatch:
 		- npm run nightwatch_local_console
 		
 		- npm run nightwatch_local_remixd # remixd needs to be run
+
+## Some Questions
+Q1.if you open remix-ide-vns on Chrome browser,and choose solc version 0.6.x to compile xx.sol.you may meet the error "Uncaught JavaScript exception:TypeError: soljson.Pointer_stringify is not a function".
+
+R1:you can change the Firefox browser to open open remix-ide-vns and load solc version 0.6.x .
